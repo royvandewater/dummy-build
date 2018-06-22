@@ -5,4 +5,4 @@ jobs:
       - image: "circleci/buildpack-deps:buster-curl-browsers"
     steps:
       - run: sleep 5
-      - run: exit 1
+      - run: exit 0
