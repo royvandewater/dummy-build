@@ -1,6 +1,7 @@
 version: 2
 jobs:
   build:
-    docker: circleci/buildpack-deps:buster-curl-browsers
+    docker: "circleci/buildpack-deps:buster-curl-browsers"
     steps:
+      - run: wait 5
       - run: exit 0
