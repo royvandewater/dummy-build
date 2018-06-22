@@ -4,4 +4,4 @@ jobs:
     docker: 
       - image: "circleci/buildpack-deps:buster-curl-browsers"
     steps:
-      - run: exit 0
+      - run: exit 1
