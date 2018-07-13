@@ -3,4 +3,4 @@ jobs:
   build:
     machine: true
     steps:
-      - run: exit 2
+      - run: exit 0
